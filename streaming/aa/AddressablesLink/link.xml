@@ -2,13 +2,19 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Animation.ObjectAnimator" preserve="all" />
     <type fullname="Animation.RotateAnimator" preserve="all" />
+    <type fullname="Animation.RotateTowardsPlayer" preserve="all" />
     <type fullname="Door" preserve="all" />
     <type fullname="Main.Level" preserve="all" />
     <type fullname="Player.SpawnPoint" preserve="all" />
     <type fullname="Statistic.Leaderboard" preserve="all" />
     <type fullname="TrackObjects.ItemsToHide" preserve="all" />
+    <type fullname="Trigger.ActivateTrigger" preserve="all" />
+    <type fullname="Trigger.GoAgainTrigger" preserve="all" />
     <type fullname="Trigger.HatTrigger" preserve="all" />
     <type fullname="Trigger.SpruntTrigger" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="EpicToonFX.ETFXRotation" preserve="all" />
   </assembly>
   <assembly fullname="LeanLocalization.TMP, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Lean.Localization.LeanLocalizedTextMeshPro" preserve="all" />
@@ -76,6 +82,7 @@
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.PhysicMaterial" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
